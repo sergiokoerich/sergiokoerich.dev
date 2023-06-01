@@ -451,6 +451,11 @@ footer {
         font-size: 2rem;
     }
     
+    .home span{
+        font-size: 3rem;
+        font-weight: 300;
+    }
+    
     .about {
         height: 80rem;
     }
