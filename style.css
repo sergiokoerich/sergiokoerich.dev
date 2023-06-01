@@ -211,14 +211,11 @@ main {
     padding: 2rem;
     text-align: center;
     transform: translateY(10rem);
-    opacity: 0;
     transition: .5s;
+    margin-bottom: 20rem;
 }
 
-.container .card:hover .content{
-    transform: translateY(0);
-    opacity: 1;
-}
+
 
 .container .card .content h2{
     position: absolute;
@@ -315,7 +312,6 @@ main {
 .progress-bar::-webkit-progress-bar {
     background-color: var(--bg-primary);
 }
-
 
 .linkedin img{
     height: 5rem;
@@ -451,11 +447,12 @@ footer {
     .logo h1 {
         font-size: 2rem;
     }
-    
+
     .home span{
-        font-size: 3.2rem;
+        font-size: 3rem;
         font-weight: 300;
     }
+    
     
     .about {
         height: 80rem;
