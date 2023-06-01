@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" type="images/profile-pic" sizes="32x32" href="./images/profile-pic.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap" rel="stylesheet">
+    <title>Sérgio Koerich | Frontend Developer</title>
+</head>
+
+<body>
+    <div id="home1"></div>
+    <!--menu-->
+    <header>
+        <nav class="nav-bar">
+            <div class="logo">
+                <img src="images/profile-pic.png" alt="">
+                <h1>SÉRGIO KOERICH</h1>
+            </div>
+            <div class="nav-list">
+                <ul>
+                    <li class="nav-item"><a href="#home1" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="#about1" class="nav-link">About</a></li>
+                    <li class="nav-item"><a href="#projects1" class="nav-link">Projects</a></li>
+                    <li class="nav-item"><a href="#skills1" class="nav-link">Skills</a></li>
+                </ul>
+            </div>
+            
+            <div class="mobile-menu-icon">
+                <button onclick="menuShow()"><img class="icon" src="images/list.svg" alt=""></button>
+            </div>
+        </nav>
+        <div class="mobile-menu">
+            <ul>
+                <li class="nav-item"><a href="#home1" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="#about1" class="nav-link">About</a></li>
+                <li class="nav-item"><a href="#projects1" class="nav-link">Projects</a></li>
+                <li class="nav-item"><a href="#skills1" class="nav-link">Skills</a></li>
+            </ul>
+        </div>
+    </header>
+    <main>
+        <!--first page-->
+        <div class="home" id="home">
+            <div class="textHome">
+                <h1>Hey, <br> 
+                I`m <span id="text"></span></h1>
+                <p>A Frontend developer</p>
+            </div>
+            <img src="images/giphy.gif" alt="A developer coding">
+        </div>
+        <div id="about1"></div>
+        <!--second page-->
+        <div class="about" id="about">
+            <img src="images/profile-pic.png" alt="Profile Picture">
+            <div>
+                <h1>ABOUT ME</h1>
+                <p>My name is Sérgio Koerich and I'm falling more and more in love with programming. <br>
+                    I'm currently graduating in Full Stack Developer, during the course I learned a lot about HTML, CSS and Javascript, and I'm increasingly looking for knowledge, to reach my goal of being a Full Stack programmer.</p>
+            </div>  
+        </div>
+        <div id="projects1"></div>
+        <!--projects-->
+        <div class="projects" id="projects">
+            <h1>PROJECTS</h1>
+        </div>
+        <div class="container">
+            <div class="card">
+                <div class="content">
+                    <h2>01</h2>
+                    <h3>To do list</h3>
+                    <p>"A simple to-do list, made with Html, CSS and Javascript."
+                    </p>
+                    <a href="https://simple-to-do-list-peach.vercel.app/" target="_blank">View the project</a>                   
+                </div>
+            </div>
+            <div class="card">
+                <div class="content">
+                    <h2>02</h2>
+                    <h3>Landing Page</h3>
+                    <p>"A landing page, where I used Html, CSS and Javascript"
+                    </p>
+                    <a href="https://project-12-nine.vercel.app/" target="_blank">View the project</a>                   
+                </div>
+            </div>
+            <div class="card">
+                <div class="content">
+                    <h2>03</h2>
+                    <h3>Guess the number</h3>
+                    <p>"A small game, Guess the number between 0 and 10. I used Html, CSS and Javascript"
+                    </p>
+                    <a href="https://project-11-gamma.vercel.app/" target="_blank">View the project</a>                   
+                </div>
+            </div> 
+            <div class="card">
+                <div class="content">
+                    <h2>04</h2>
+                    <h3>Soon</h3>
+                    <p>"More projects coming soon"
+                    </p>                 
+                </div>
+            </div>               
+        </div>
+        <div id="skills1"></div>
+        <div class="skills" id="skills">
+            <h1>SKILLS</h1>
+        </div>
+        <div class="skill">
+            <div class="skill-page">
+                <dd class="icon">
+                    <img src="images/html5-svgrepo-com.svg" alt="">
+                </dd>
+                <div>
+                    <dt class="title">HTML</dt>
+                    <dd>
+                        <progress class= "progress-bar" max="100" value="90">90%</progress>
+                    </dd>
+                </div>    
+            </div>
+            <div class="skill-page">
+                <dd class="icon">
+                    <img src="images/css3-01-svgrepo-com.svg" alt="">
+                </dd>
+                <div>
+                    <dt class="title">CSS</dt>
+                    <dd>
+                        <progress class= "progress-bar" max="100" value="90">90%</progress>
+                    </dd>
+                </div>    
+            </div>
+            <div class="skill-page">
+                <dd class="icon">
+                    <img src="images/js01-svgrepo-com.svg" alt="">
+                </dd>
+                <div>
+                    <dt class="title">JS</dt>
+                    <dd>
+                        <progress class= "progress-bar" max="100" value="60">60%</progress>
+                    </dd>
+                </div>    
+            </div>
+        </div>
+        <div class="skill">
+            <div class="skill-page">
+                <dd class="icon">
+                    <img src="images/git-icon-svgrepo-com.svg" alt="">
+                </dd>
+                <div>
+                    <dt class="title">GIT</dt>
+                    <dd>
+                        <progress class= "progress-bar" max="100" value="60">60%</progress>
+                    </dd>
+                </div>    
+            </div>
+            <div class="skill-page">
+                <dd class="icon">
+                    <img src="images/github-logo-svgrepo-com.svg" alt="">
+                </dd>
+                <div>
+                    <dt class="title">GITHUB</dt>
+                    <dd>
+                        <progress class= "progress-bar" max="100" value="70">70%</progress>
+                    </dd>
+                </div>    
+            </div>
+            <div class="skill-page">
+                <dd class="icon">
+                    <img src="images/react-logo-programming-2-svgrepo-com.svg" alt="">
+                </dd>
+                <div>
+                    <dt class="title">REACT</dt>
+                    <dd>
+                        <progress class= "progress-bar" max="100" value="20">20%</progress>
+                    </dd>
+                </div>    
+            </div>
+        </div>        
+    </main>
+
+    <footer>
+        <h1>© 2023 / Sérgio Koerich / All rights reserved</h1>
+    </footer>
+
+    <div class="linkedin">
+        <a href="https://www.linkedin.com/in/sergiokoerich/?locale=en_US" target="_blank">
+            <img src="images/linkedin-icon-logo-svgrepo-com.svg" alt="">
+        </a>
+    </div>
+    <div class="github">
+        <a href="https://github.com/sergiokoerich" target="_blank">
+            <img src="images/github-code-source-svgrepo-com.svg" alt="">
+        </a>
+    </div>
+    <script type="text/javascript" src="vanilla-tilt.js"></script>
+    <script>
+        VanillaTilt.init(document.querySelectorAll(".card"), {
+            glare: true,
+            "max-glare": 0.5,
+        });
+    </script>
+    <script src="script.js"></script>
+</body>
+
+</html>
