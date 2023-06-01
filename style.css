@@ -430,3 +430,13 @@ footer {
         left: .5rem;
     }
 }
+
+@media screen and (max-width: 450px) {
+    .about {
+        height: 80rem;
+    }
+
+    footer {
+        font-size: .7rem;
+    }
+}
