@@ -152,7 +152,8 @@ main {
 .about img{
     height: 45rem;
     margin-right: 5rem;
-    box-shadow: 2rem 2rem 5rem rgba(0,0,0,0.5);
+    box-shadow:  5px 5px 5px #121452,
+             -5px -5px 5px #464eff;
     border-radius: 50%;
 }
 
